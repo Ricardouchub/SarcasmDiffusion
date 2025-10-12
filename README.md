@@ -14,10 +14,10 @@ El objetivo es generar imágenes limpias y expresivas sin texto incrustado, sobr
 | **Modelo base** | Stable Diffusion XL (SDXL Base 1.0) |
 | **Fine-tuning** | LoRA sobre el UNet (fp16) |
 | **Framework** | Hugging Face Diffusers + PEFT + Accelerate |
-| **Dataset** | 10K memes balanceados (`humor`, `irony`, `neutral`) |
+| **Dataset** | [Hateful Memes Dataset - 10k](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset) |
 | **App** | Streamlit UI para inferencia con overlay estilo meme |
 | **Preprocesamiento** | NLP con GoEmotions + RoBERTa-Irony para etiquetado semántico |
-| **Formato final** | Modelo fusionado (`sdxl_fused_full`) + LoRA separado (`lora_only`) |
+| **Formato final** | Modelo fusionado (`sdxl_fused_full`) + LoRA separado (`LoRA weights`) |
 
 ---
 
