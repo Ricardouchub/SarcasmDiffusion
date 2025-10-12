@@ -34,9 +34,8 @@ SarcasmDiffusion/
 │   │   ├── train_lora_prompts.csv      # Prompts generados por tono
 │   │   └── infer_samples/              # Resultados de inferencia
 ├── models/
-│   ├── sdxl_fused_full/                # Modelo completo fusionado
 │   └── lora_only/                      # Pesos LoRA del UNet
-└── SarcasmDiffusion.ipynb              # Notebook principal del proyecto
+└── img/                                # Carpeta de imágenes para readme
 
 ```
 
