@@ -26,6 +26,7 @@ El objetivo es generar imágenes limpias y expresivas sin texto incrustado, sobr
 ```
 SarcasmDiffusion/
 ├── app.py                              # Interfaz Streamlit para inferencia
+├── SarcasmDiffusion.ipynb              # Notebook principal del proyecto
 ├── data/
 │   ├── img/                            # Imágenes originales del dataset
 │   ├── processed/
