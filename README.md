@@ -40,11 +40,8 @@ SarcasmDiffusion/
 ├── models/
 │   ├── sdxl_fused_full/                # Modelo completo fusionado
 │   └── lora_only/                      # Pesos LoRA del UNet
-├── notebooks/
-│   ├── SarcasmDiffusion.ipynb          # Notebook principal del proyecto
-│   └── Experiments/                    # Pruebas, tuning y smoke tests
-└── img/
-    └── banner.png                      # Banner del proyecto
+└── SarcasmDiffusion.ipynb              # Notebook principal del proyecto
+
 ```
 
 ---
@@ -108,14 +105,6 @@ SarcasmDiffusion/
 ✅ Generación controlada con *negative prompts* (sin texto ni ruido).  
 ✅ App de inferencia funcional en Streamlit.  
 ✅ Overlay automático estilo meme con ajuste dinámico del texto.
-
----
-
-## Próximos pasos
-- Incluir *emotion conditioning* directo desde embeddings del caption.  
-- Entrenar variante *text-to-meme* multilingüe.  
-- Publicar el modelo fusionado en Hugging Face Hub.  
-- Optimización con *LoRA rank selection* y *DreamBooth regularization*.
 
 ---
 
