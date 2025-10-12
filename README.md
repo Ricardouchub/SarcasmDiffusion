@@ -81,20 +81,23 @@ SarcasmDiffusion/
 
 ---
 
-## Ejemplo de generación
-<p align="center">
-  <img width="600" src="img/sample_meme.png" alt="Ejemplo de meme generado"/>
-</p>
-
----
-
 ## Ejemplos de prompts
 
 | Prompt | Caption arriba | Caption abajo |
 |--------|----------------|---------------|
-| "sarcastic meme about running out of GPU VRAM at 3am" | WHEN YOUR GPU SAYS | 'OUT OF MEMORY' AT 3AM |
-| "meme sarcástico sobre intentar comer saludable pero viendo pizza" | CUANDO PROMETES COMER SANO | PERO LA PIZZA TE HABLA 🍕 |
-| "funny meme about checking the fridge for the third time" | WHEN YOU CHECK THE FRIDGE | FOR THE THIRD TIME 😅 |
+| "sarcastic meme about running on too much coffee" | ONE CUP OF COFFEE | AWAY FROM A MELTDOWN |
+| "sarcastic meme about saying 'just five more minutes' of sleep and waking up late" | WHEN YOU SAY '5 MORE MINUTES | AND WAKE UP AT NOON |
+| "meme sarcástico sobre intentar comer saludable pero viendo pizza" | CUANDO PROMETES COMER SANO | PERO LA PIZZA TE HABLA |
+
+## Generación
+
+<img width="600" src="img/meme_coffee.png" alt="Ejemplo de meme generado"/>
+
+
+<img width="600" src="img/meme_sleep_late.png" alt="Ejemplo de meme generado"/>
+
+
+<img width="600" src="img/meme_pizza.png" alt="Ejemplo de meme generado"/>
 
 ---
 
