@@ -112,7 +112,7 @@ Dataset original: *Hateful Memes (Facebook AI)*
 
 ---
 
-<p align="center">
-  <b>© 2025 - Ricardo Urdaneta</b><br>
-  <i>“Aprender, crear y compartir conocimiento con propósito.”</i>
-</p>
+## Autor
+
+**Ricardo Urdaneta**  
+[GitHub](https://github.com/Ricardouchub) | [LinkedIn](https://www.linkedin.com/in/ricardourdanetacastro)
