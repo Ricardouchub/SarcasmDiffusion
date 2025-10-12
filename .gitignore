@@ -185,3 +185,6 @@ data/img/*
 
 # Model
 models/sdxl_fused_full
+
+# Project overview
+*.docx
