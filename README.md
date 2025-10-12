@@ -2,13 +2,8 @@
 
 <img src="https://img.shields.io/badge/Proyecto_Completado-%E2%9C%94-2ECC71?style=flat-square&logo=checkmarx&logoColor=white" alt="Proyecto Completado"/> <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Diffusers-0.35.1-orange?style=flat-square&logo=huggingface&logoColor=white" alt="Diffusers"/> <img src="https://img.shields.io/badge/LoRA-FineTuning-blue?style=flat-square&logo=openaichat&logoColor=white" alt="LoRA"/> <img src="https://img.shields.io/badge/Stable_Diffusion_XL-Model-9b59b6?style=flat-square&logo=ai&logoColor=white" alt="Stable Diffusion XL"/> <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit"/>
 
-**Generador de Memes Sarcásticos entrenado con Stable Diffusion XL + LoRA.**  
-Proyecto que combina *deep learning generativo*, *procesamiento de emociones* y *fine-tuning visual* para crear memes controlados por texto.
 
----
-
-## Descripción del Proyecto
-**SarcasmDiffusion** es un modelo basado en **Stable Diffusion XL** ajustado mediante **LoRA (Low-Rank Adaptation)** para aprender el estilo visual de los memes irónicos y sarcásticos, utilizando un dataset derivado del *Hateful Memes Dataset* (Facebook AI).  
+**SarcasmDiffusion** es un modelo basado en **Stable Diffusion XL** ajustado mediante **LoRA (Low-Rank Adaptation)** para aprender el estilo visual de los memes irónicos y sarcásticos, utilizando un dataset derivado del [*Hateful Memes Dataset* (Facebook AI)](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset)  
 El objetivo es generar imágenes limpias y expresivas sin texto incrustado, sobre las cuales se superpone luego el caption estilo meme.
 
 ---
@@ -31,6 +26,7 @@ El objetivo es generar imágenes limpias y expresivas sin texto incrustado, sobr
 ```
 SarcasmDiffusion/
 ├── app.py                              # Interfaz Streamlit para inferencia
+├── SarcasmDiffusion.ipynb              # Notebook principal del proyecto
 ├── data/
 │   ├── img/                            # Imágenes originales del dataset
 │   ├── processed/
@@ -81,20 +77,23 @@ SarcasmDiffusion/
 
 ---
 
-## Ejemplo de generación
-<p align="center">
-  <img width="600" src="img/sample_meme.png" alt="Ejemplo de meme generado"/>
-</p>
-
----
-
 ## Ejemplos de prompts
 
 | Prompt | Caption arriba | Caption abajo |
 |--------|----------------|---------------|
-| "sarcastic meme about running out of GPU VRAM at 3am" | WHEN YOUR GPU SAYS | 'OUT OF MEMORY' AT 3AM |
-| "meme sarcástico sobre intentar comer saludable pero viendo pizza" | CUANDO PROMETES COMER SANO | PERO LA PIZZA TE HABLA 🍕 |
-| "funny meme about checking the fridge for the third time" | WHEN YOU CHECK THE FRIDGE | FOR THE THIRD TIME 😅 |
+| "sarcastic meme about running on too much coffee" | ONE CUP OF COFFEE | AWAY FROM A MELTDOWN |
+| "sarcastic meme about saying 'just five more minutes' of sleep and waking up late" | WHEN YOU SAY '5 MORE MINUTES | AND WAKE UP AT NOON |
+| "meme sarcástico sobre intentar comer saludable pero viendo pizza" | CUANDO PROMETES COMER SANO | PERO LA PIZZA TE HABLA |
+
+## Generación
+
+<img width="600" src="img/meme_coffee.png" alt="Ejemplo de meme generado"/>
+
+
+<img width="600" src="img/meme_sleep_late.png" alt="Ejemplo de meme generado"/>
+
+
+<img width="600" src="img/meme_pizza.png" alt="Ejemplo de meme generado"/>
 
 ---
 
@@ -110,7 +109,7 @@ SarcasmDiffusion/
 
 ## Licencia
 Este proyecto se distribuye bajo licencia **MIT**.  
-Dataset original: *Hateful Memes (Facebook AI)* bajo términos de uso de FAIR.
+Dataset original: *Hateful Memes (Facebook AI)* 
 
 ---
 
