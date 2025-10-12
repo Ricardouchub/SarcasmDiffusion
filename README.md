@@ -1,32 +1,19 @@
-﻿<!-- README.md -->
-<p align="center">
-  <img width="1600" height="400" alt="banner" src="img/banner.png" />
-</p>
+# SarcasmDiffusion
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Proyecto_Completado-%E2%9C%94-2ECC71?style=flat-square&logo=checkmarx&logoColor=white" alt="Proyecto Completado"/>
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Diffusers-0.35.1-orange?style=flat-square&logo=huggingface&logoColor=white" alt="Diffusers"/>
-  <img src="https://img.shields.io/badge/LoRA-FineTuning-blue?style=flat-square&logo=openaichat&logoColor=white" alt="LoRA"/>
-  <img src="https://img.shields.io/badge/Stable_Diffusion_XL-Model-9b59b6?style=flat-square&logo=ai&logoColor=white" alt="Stable Diffusion XL"/>
-  <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit"/>
-</p>
+<img src="https://img.shields.io/badge/Proyecto_Completado-%E2%9C%94-2ECC71?style=flat-square&logo=checkmarx&logoColor=white" alt="Proyecto Completado"/> <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Diffusers-0.35.1-orange?style=flat-square&logo=huggingface&logoColor=white" alt="Diffusers"/> <img src="https://img.shields.io/badge/LoRA-FineTuning-blue?style=flat-square&logo=openaichat&logoColor=white" alt="LoRA"/> <img src="https://img.shields.io/badge/Stable_Diffusion_XL-Model-9b59b6?style=flat-square&logo=ai&logoColor=white" alt="Stable Diffusion XL"/> <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit"/>
 
----
-
-# 😏 SarcasmDiffusion
 **Generador de Memes Sarcásticos entrenado con Stable Diffusion XL + LoRA.**  
-Proyecto de portafolio que combina *deep learning generativo*, *procesamiento de emociones* y *fine-tuning visual* para crear memes controlados por texto.
+Proyecto que combina *deep learning generativo*, *procesamiento de emociones* y *fine-tuning visual* para crear memes controlados por texto.
 
 ---
 
-## 🧠 Descripción del Proyecto
+## Descripción del Proyecto
 **SarcasmDiffusion** es un modelo basado en **Stable Diffusion XL** ajustado mediante **LoRA (Low-Rank Adaptation)** para aprender el estilo visual de los memes irónicos y sarcásticos, utilizando un dataset derivado del *Hateful Memes Dataset* (Facebook AI).  
 El objetivo es generar imágenes limpias y expresivas sin texto incrustado, sobre las cuales se superpone luego el caption estilo meme.
 
 ---
 
-## 🧩 Arquitectura y Técnicas Utilizadas
+## Arquitectura y Técnicas Utilizadas
 | Componente | Descripción |
 |-------------|-------------|
 | **Modelo base** | Stable Diffusion XL (SDXL Base 1.0) |
@@ -39,7 +26,7 @@ El objetivo es generar imágenes limpias y expresivas sin texto incrustado, sobr
 
 ---
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 SarcasmDiffusion/
@@ -62,7 +49,7 @@ SarcasmDiffusion/
 
 ---
 
-## ⚙️ Hiperparámetros del entrenamiento
+## Hiperparámetros del entrenamiento
 
 | Parámetro | Valor |
 |------------|-------|
@@ -78,7 +65,7 @@ SarcasmDiffusion/
 
 ---
 
-## 🧩 Flujo de trabajo
+## Flujo de trabajo
 
 1. **Fase A — Preprocesamiento**  
    Limpieza del dataset, enriquecimiento con emociones e ironía, y balanceo de tonos.
@@ -97,14 +84,14 @@ SarcasmDiffusion/
 
 ---
 
-## 🎨 Ejemplo de generación
+## Ejemplo de generación
 <p align="center">
   <img width="600" src="img/sample_meme.png" alt="Ejemplo de meme generado"/>
 </p>
 
 ---
 
-## 💡 Ejemplos de prompts
+## Ejemplos de prompts
 
 | Prompt | Caption arriba | Caption abajo |
 |--------|----------------|---------------|
@@ -114,19 +101,7 @@ SarcasmDiffusion/
 
 ---
 
-## 🧰 Tecnologías
-
-<p align="left">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Diffusers-FF9900?style=flat-square&logo=huggingface&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PEFT-LoRA-00599C?style=flat-square&logo=openaichat&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Transformers-4.56-blueviolet?style=flat-square&logo=huggingface&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-</p>
-
----
-
-## 🧩 Resultados y logros
+## Resultados y logros
 
 ✅ Entrenamiento exitoso de un modelo de difusión capaz de aprender el **estilo visual** de memes sarcásticos.  
 ✅ Dataset enriquecido y balanceado automáticamente.  
@@ -136,7 +111,7 @@ SarcasmDiffusion/
 
 ---
 
-## 🧠 Próximos pasos
+## Próximos pasos
 - Incluir *emotion conditioning* directo desde embeddings del caption.  
 - Entrenar variante *text-to-meme* multilingüe.  
 - Publicar el modelo fusionado en Hugging Face Hub.  
@@ -144,7 +119,7 @@ SarcasmDiffusion/
 
 ---
 
-## 📄 Licencia
+## Licencia
 Este proyecto se distribuye bajo licencia **MIT**.  
 Dataset original: *Hateful Memes (Facebook AI)* bajo términos de uso de FAIR.
 
