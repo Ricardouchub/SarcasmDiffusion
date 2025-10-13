@@ -14,7 +14,7 @@ Utiliza un dataset curado a partir del [*Hateful Memes Dataset* de Facebook AI](
 ## Arquitectura y Técnicas Utilizadas
 | Componente | Descripción |
 |-------------|-------------|
-| **Modelo base** | Stable Diffusion XL (SDXL Base 1.0) |
+| **Modelo base** | [Stable Diffusion XL (Base 1.0)](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) |
 | **Fine-tuning** | LoRA sobre el UNet (fp16) |
 | **Framework** | Hugging Face Diffusers + PEFT + Accelerate |
 | **Dataset** | [Hateful Memes Dataset - 10k](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset) |
