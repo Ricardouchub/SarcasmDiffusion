@@ -79,7 +79,7 @@ Utiliza un dataset curado a partir del [*Hateful Memes Dataset* de Facebook AI](
 
 ## App
 
-<img width="1228" height="1173" alt="image" src="https://github.com/user-attachments/assets/8b69229a-5b7d-4775-9619-ea87f98a7705" />
+<img width="600" src="img/app.png" alt="Ejemplo de meme generado"/>
 
 
 ---
