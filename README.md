@@ -51,11 +51,11 @@ Utiliza un dataset curado a partir del [*Hateful Memes Dataset* de Facebook AI](
 3. **Fase C — Entrenamiento SDXL con LoRA**  
    Fine-tuning del UNet del modelo con parámetros congelados para preservar calidad base.
 
-4. **Fase D — Fusión y Exportación**  
-   Generación de dos versiones: `lora_only` y `sdxl_fused_full`.
+4. **Fase D — Inferencia & Overlay**  
+   Generación con SDXL + superposición de texto estilo meme.
 
 5. **Fase E — Inferencia y UI**  
-   Implementación de una app en Streamlit (`app.py`) con control de seed, steps, guidance y captions tipo meme.
+   Implementación de una app en Streamlit (`app.py`).
 
 ---
 
