@@ -3,8 +3,11 @@
 <img src="https://img.shields.io/badge/Proyecto_Completado-%E2%9C%94-2ECC71?style=flat-square&logo=checkmarx&logoColor=white" alt="Proyecto Completado"/> <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Diffusers-0.35.1-orange?style=flat-square&logo=huggingface&logoColor=white" alt="Diffusers"/> <img src="https://img.shields.io/badge/LoRA-FineTuning-blue?style=flat-square&logo=openaichat&logoColor=white" alt="LoRA"/> <img src="https://img.shields.io/badge/Stable_Diffusion_XL-Model-9b59b6?style=flat-square&logo=ai&logoColor=white" alt="Stable Diffusion XL"/>   <img src="https://img.shields.io/badge/Hugging%20Face-Models-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HF Spaces"/> <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit"/>
 
 
-[**SarcasmDiffusion**](https://huggingface.co/Ricardouchub/SarcasmDiffusion) es un modelo basado en **Stable Diffusion XL** ajustado mediante **LoRA (Low-Rank Adaptation)** para aprender el estilo visual de los memes irónicos y sarcásticos, utilizando un dataset derivado del [*Hateful Memes Dataset* (Facebook AI)](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset)  
-El objetivo es generar imágenes limpias y expresivas sin texto incrustado, sobre las cuales se superpone luego el caption estilo meme.
+**SarcasmDiffusion** es un modelo de generación de imágenes basado en **Stable Diffusion XL**, entrenado con **LoRA** para capturar la esencia visual del sarcasmo y la ironía en los memes.
+
+Utiliza un dataset curado a partir del [*Hateful Memes Dataset* de Facebook AI](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset) para generar imágenes limpias y expresivas, listas para que añadas tu propio caption.
+
+[**Explora el Notebook de entrenamiento**](https://github.com/Ricardouchub/SarcasmDiffusion/blob/main/SarcasmDiffusion%20-%20Notebook.ipynb) | [**Modelo en Hugging Face**](https://huggingface.co/Ricardouchub/SarcasmDiffusion)
 
 ---
 
