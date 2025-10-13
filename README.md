@@ -19,7 +19,7 @@ Utiliza un dataset curado a partir del [*Hateful Memes Dataset* de Facebook AI](
 | **Framework** | Hugging Face Diffusers + PEFT + Accelerate |
 | **Dataset** | [Hateful Memes Dataset - 10k](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset) |
 | **App** | Streamlit UI para inferencia con overlay estilo meme |
-| **Preprocesamiento** | NLP con GoEmotions + RoBERTa-Irony para etiquetado semántico |
+| **Preprocesamiento** | NLP con [GoEmotions](https://huggingface.co/joeddav/distilbert-base-uncased-go-emotions-student) + [RoBERTa-Irony](https://huggingface.co/cardiffnlp/twitter-roberta-base-irony) para etiquetado semántico |
 | **Formato final** | Modelo fusionado (`sdxl_fused_full`) + LoRA weights |
 
 ---
