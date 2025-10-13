@@ -24,26 +24,6 @@ Utiliza un dataset curado a partir del [*Hateful Memes Dataset* de Facebook AI](
 
 ---
 
-## Estructura del repositorio
-
-```
-SarcasmDiffusion/
-├── app.py                              # Interfaz Streamlit para inferencia
-├── SarcasmDiffusion.ipynb              # Notebook principal del proyecto
-├── data/
-│   ├── img/                            # Imágenes originales del dataset
-│   ├── processed/
-│   │   ├── metadata_v3.csv             # Dataset enriquecido y balanceado
-│   │   ├── train_lora_prompts.csv      # Prompts generados por tono
-│   │   └── infer_samples/              # Resultados de inferencia
-├── models/
-│   └── lora_only/                      # Pesos LoRA del UNet
-└── img/                                # Carpeta de imágenes para readme
-
-```
-
----
-
 ## Hiperparámetros del entrenamiento
 
 | Parámetro | Valor |
@@ -99,13 +79,33 @@ SarcasmDiffusion/
 
 ---
 
-## Resultados y logros
+## Resultado
 
-✅ Entrenamiento exitoso de un modelo de difusión capaz de aprender el **estilo visual** de memes sarcásticos.  
+✅ Entrenamiento de un modelo de difusión capaz de aprender el **estilo visual** de memes sarcásticos.  
 ✅ Dataset enriquecido y balanceado automáticamente.  
 ✅ Generación controlada con *negative prompts* (sin texto ni ruido).  
 ✅ App de inferencia funcional en Streamlit.  
 ✅ Overlay automático estilo meme con ajuste dinámico del texto.
+
+---
+
+## Estructura del repositorio
+
+```
+SarcasmDiffusion/
+├── app.py                              # Interfaz Streamlit para inferencia
+├── SarcasmDiffusion.ipynb              # Notebook principal del proyecto
+├── data/
+│   ├── img/                            # Imágenes originales del dataset
+│   ├── processed/
+│   │   ├── metadata_v3.csv             # Dataset enriquecido y balanceado
+│   │   ├── train_lora_prompts.csv      # Prompts generados por tono
+│   │   └── infer_samples/              # Resultados de inferencia
+├── models/
+│   └── lora_only/                      # Pesos LoRA del UNet
+└── img/                                # Carpeta de imágenes para readme
+
+```
 
 ---
 
