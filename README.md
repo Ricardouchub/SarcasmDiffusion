@@ -5,7 +5,7 @@
 
 **SarcasmDiffusion** es un modelo de generación de imágenes basado en **Stable Diffusion XL**, entrenado con **LoRA** para capturar la esencia visual del sarcasmo y la ironía en los memes.
 
-Utiliza un dataset curado a partir del [*Hateful Memes Dataset* de Facebook AI](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset) para generar imágenes limpias y expresivas, listas para que añadas tu propio caption.
+Utiliza un dataset curado a partir de [*Hateful Memes Dataset* de Facebook AI](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset) para generar imágenes limpias y expresivas, listas para que añadir caption.
 
 [**Notebook de proceso de entrenamiento**](https://github.com/Ricardouchub/SarcasmDiffusion/blob/main/SarcasmDiffusion%20-%20Notebook.ipynb) | [**Modelo en Hugging Face**](https://huggingface.co/Ricardouchub/SarcasmDiffusion)
 
@@ -79,7 +79,7 @@ Utiliza un dataset curado a partir del [*Hateful Memes Dataset* de Facebook AI](
 
 ## App
 
-<img width="1228" height="1173" alt="image" src="https://github.com/user-attachments/assets/8b69229a-5b7d-4775-9619-ea87f98a7705" />
+<img width="600" src="img/app.png" alt="Ejemplo de meme generado"/>
 
 
 ---
