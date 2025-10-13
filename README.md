@@ -7,7 +7,7 @@
 
 Utiliza un dataset curado a partir del [*Hateful Memes Dataset* de Facebook AI](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset) para generar imágenes limpias y expresivas, listas para que añadas tu propio caption.
 
-[**Explora el Notebook de entrenamiento**](https://github.com/Ricardouchub/SarcasmDiffusion/blob/main/SarcasmDiffusion%20-%20Notebook.ipynb) | [**Modelo en Hugging Face**](https://huggingface.co/Ricardouchub/SarcasmDiffusion)
+[**Notebook de proceso de entrenamiento**](https://github.com/Ricardouchub/SarcasmDiffusion/blob/main/SarcasmDiffusion%20-%20Notebook.ipynb) | [**Modelo en Hugging Face**](https://huggingface.co/Ricardouchub/SarcasmDiffusion)
 
 ---
 
