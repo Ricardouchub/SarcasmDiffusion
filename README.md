@@ -17,7 +17,7 @@ El objetivo es generar imágenes limpias y expresivas sin texto incrustado, sobr
 | **Dataset** | [Hateful Memes Dataset - 10k](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset) |
 | **App** | Streamlit UI para inferencia con overlay estilo meme |
 | **Preprocesamiento** | NLP con GoEmotions + RoBERTa-Irony para etiquetado semántico |
-| **Formato final** | Modelo fusionado (`sdxl_fused_full`) + LoRA separado (`LoRA weights`) |
+| **Formato final** | Modelo fusionado (`sdxl_fused_full`) + LoRA weights |
 
 ---
 
