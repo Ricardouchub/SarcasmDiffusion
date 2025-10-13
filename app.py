@@ -1,6 +1,5 @@
 ﻿# app.py
 # Inferencia con SDXL fusionado + overlay tipo meme
-# Ubicación del modelo (fused): C:\Users\fabri\Desktop\Portfolio\SarcasmDiffusion\models\sdxl_fused_full
 
 import os
 from io import BytesIO
@@ -14,7 +13,7 @@ from PIL import Image, ImageDraw, ImageFont
 import textwrap
 
 # ---------- Config ----------
-FUSED_DIR = Path(r"C:\Users\fabri\Desktop\Portfolio\SarcasmDiffusion\models\sdxl_fused_full")
+FUSED_DIR = Path("models/sdxl_fused_full")
 assert (FUSED_DIR / "model_index.json").exists(), f"Falta model_index.json en {FUSED_DIR}"
 
 DEFAULT_NEGATIVE = (
