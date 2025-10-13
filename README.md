@@ -7,7 +7,7 @@
 
 Utiliza un dataset curado a partir del [*Hateful Memes Dataset* de Facebook AI](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset) para generar imágenes limpias y expresivas, listas para que añadas tu propio caption.
 
-[**Explora el Notebook de entrenamiento**](https://github.com/Ricardouchub/SarcasmDiffusion/blob/main/SarcasmDiffusion%20-%20Notebook.ipynb) | [**Modelo en Hugging Face**](https://huggingface.co/Ricardouchub/SarcasmDiffusion)
+[**Notebook de proceso de entrenamiento**](https://github.com/Ricardouchub/SarcasmDiffusion/blob/main/SarcasmDiffusion%20-%20Notebook.ipynb) | [**Modelo en Hugging Face**](https://huggingface.co/Ricardouchub/SarcasmDiffusion)
 
 ---
 
@@ -21,26 +21,6 @@ Utiliza un dataset curado a partir del [*Hateful Memes Dataset* de Facebook AI](
 | **App** | Streamlit UI para inferencia con overlay estilo meme |
 | **Preprocesamiento** | NLP con GoEmotions + RoBERTa-Irony para etiquetado semántico |
 | **Formato final** | Modelo fusionado (`sdxl_fused_full`) + LoRA weights |
-
----
-
-## Estructura del repositorio
-
-```
-SarcasmDiffusion/
-├── app.py                              # Interfaz Streamlit para inferencia
-├── SarcasmDiffusion.ipynb              # Notebook principal del proyecto
-├── data/
-│   ├── img/                            # Imágenes originales del dataset
-│   ├── processed/
-│   │   ├── metadata_v3.csv             # Dataset enriquecido y balanceado
-│   │   ├── train_lora_prompts.csv      # Prompts generados por tono
-│   │   └── infer_samples/              # Resultados de inferencia
-├── models/
-│   └── lora_only/                      # Pesos LoRA del UNet
-└── img/                                # Carpeta de imágenes para readme
-
-```
 
 ---
 
@@ -71,11 +51,11 @@ SarcasmDiffusion/
 3. **Fase C — Entrenamiento SDXL con LoRA**  
    Fine-tuning del UNet del modelo con parámetros congelados para preservar calidad base.
 
-4. **Fase D — Fusión y Exportación**  
-   Generación de dos versiones: `lora_only` y `sdxl_fused_full`.
+4. **Fase D — Inferencia & Overlay**  
+   Generación con SDXL + superposición de texto estilo meme.
 
 5. **Fase E — Inferencia y UI**  
-   Implementación de una app en Streamlit (`app.py`) con control de seed, steps, guidance y captions tipo meme.
+   Implementación de una app en Streamlit (`app.py`).
 
 ---
 
@@ -99,13 +79,33 @@ SarcasmDiffusion/
 
 ---
 
-## Resultados y logros
+## Resultado
 
-✅ Entrenamiento exitoso de un modelo de difusión capaz de aprender el **estilo visual** de memes sarcásticos.  
+✅ Entrenamiento de un modelo de difusión capaz de aprender el **estilo visual** de memes sarcásticos.  
 ✅ Dataset enriquecido y balanceado automáticamente.  
 ✅ Generación controlada con *negative prompts* (sin texto ni ruido).  
 ✅ App de inferencia funcional en Streamlit.  
 ✅ Overlay automático estilo meme con ajuste dinámico del texto.
+
+---
+
+## Estructura del repositorio
+
+```
+SarcasmDiffusion/
+├── app.py                              # Interfaz Streamlit para inferencia
+├── SarcasmDiffusion.ipynb              # Notebook principal del proyecto
+├── data/
+│   ├── img/                            # Imágenes originales del dataset
+│   ├── processed/
+│   │   ├── metadata_v3.csv             # Dataset enriquecido y balanceado
+│   │   ├── train_lora_prompts.csv      # Prompts generados por tono
+│   │   └── infer_samples/              # Resultados de inferencia
+├── models/
+│   └── lora_only/                      # Pesos LoRA del UNet
+└── img/                                # Carpeta de imágenes para readme
+
+```
 
 ---
 
