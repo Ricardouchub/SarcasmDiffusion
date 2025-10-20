@@ -188,3 +188,4 @@ models/sdxl_fused_full
 
 # Project overview
 *.docx
+data/processed/infer_app/meme_app.png
