@@ -1,6 +1,15 @@
 # SarcasmDiffusion
 
-<img src="https://img.shields.io/badge/Proyecto_Completado-%E2%9C%94-2ECC71?style=flat-square&logo=checkmarx&logoColor=white" alt="Proyecto Completado"/> <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Diffusers-0.35.1-orange?style=flat-square&logo=huggingface&logoColor=white" alt="Diffusers"/> <img src="https://img.shields.io/badge/LoRA-FineTuning-blue?style=flat-square&logo=openaichat&logoColor=white" alt="LoRA"/> <img src="https://img.shields.io/badge/Stable_Diffusion_XL-Model-9b59b6?style=flat-square&logo=ai&logoColor=white" alt="Stable Diffusion XL"/>   <img src="https://img.shields.io/badge/Hugging%20Face-Models-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HF Spaces"/> <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit"/>
+<p align="left">
+  <img src="https://img.shields.io/badge/Project_Completed-%E2%9C%94-2ECC71?logo=checkmarx&logoColor=white" alt="Project Completed"/>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Diffusers-0.35.1-orange?logo=huggingface&logoColor=white" alt="Diffusers"/>
+  <img src="https://img.shields.io/badge/LoRA-FineTuning-blue?logo=openaichat&logoColor=white" alt="LoRA"/>
+  <img src="https://img.shields.io/badge/Stable_Diffusion_XL-Model-9b59b6?logo=ai&logoColor=white" alt="Stable Diffusion XL"/>
+  <a href="https://huggingface.co/Ricardouchub/SarcasmDiffusion">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Models-FFD21E?logo=huggingface&logoColor=black" alt="Hugging Face"/></a>
+  <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit"/>
+</p>
 
 
 **SarcasmDiffusion** es un modelo de generación de imágenes basado en **Stable Diffusion XL**, entrenado con **LoRA** para capturar la esencia visual del sarcasmo y la ironía en los memes.
