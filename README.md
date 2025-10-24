@@ -41,7 +41,7 @@ Utiliza un dataset curado a partir de [*Hateful Memes Dataset* de Facebook AI](h
 |------------|-------|
 | Resolución | 1024 px |
 | Batch Size | 1 (Grad Accum = 4) |
-| Learning Rate | 1e-4 |
+| Learning Rate | 0.0001 |
 | Max Steps | 9,000 |
 | LoRA r / α / dropout | 8 / 16 / 0.05 |
 | Optimizer | AdamW8bit |
